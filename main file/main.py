@@ -2,7 +2,7 @@ import streamlit as st
 
 
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Home", "Projects", "Skills & Experience", "Contact"])
+page = st.sidebar.radio("Go to", ["Home", "Skills & Experience", "Contact"])
 
 
 if page == "Home":
